@@ -9,3 +9,4 @@ StudySphere is a web-based AI Study Companion designed to help students plan the
 
 ## Project Category
 University / Community Based Project
+Sync 
