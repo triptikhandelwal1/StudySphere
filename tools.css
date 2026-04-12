@@ -1,0 +1,94 @@
+/* BODY - more contrast */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #eef4ff, #d6e4ff);
+  color: #2c3e50;
+}
+
+/* TITLE - stronger gradient */
+h1 {
+  text-align: center;
+  font-size: 38px;
+  margin: 30px 0;
+
+  background: linear-gradient(to right, #2563eb, #6366f1);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+}
+
+/* CARD - more visible */
+.tool-card {
+  background: linear-gradient(135deg, #ffffff, #eaf2ff);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.15);
+  border: 1px solid #c7d7ff;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(37, 99, 235, 0.25);
+}
+
+/* HEADINGS */
+.tool-card h2 {
+  color: #1e3a8a;
+  margin-bottom: 12px;
+}
+
+/* INPUTS */
+.tool-card input,
+.tool-card textarea {
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+}
+
+/* PRIMARY BUTTON - stronger */
+.tool-card button {
+  background: linear-gradient(to right, #2563eb, #6366f1);
+  color: white;
+  font-weight: 500;
+}
+
+/* BUTTON HOVER */
+.tool-card button:hover {
+  background: linear-gradient(to right, #1d4ed8, #4f46e5);
+}
+
+/* SECOND BUTTON */
+.tool-card button:last-of-type {
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+/* TIMER - more visible */
+#timerDisplay {
+  text-align: center;
+  font-size: 42px;
+  margin: 20px 0;
+  font-weight: bold;
+
+  background: linear-gradient(to right, #2563eb, #6366f1);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+}
+
+#timerDisplay {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
